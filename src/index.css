@@ -1,0 +1,72 @@
+body{
+     width:100%
+}
+.ax_default {
+    font-family:'Arial';
+    font-weight:400;
+    font-style:normal;
+    font-size:13px;
+    color:#333333;
+    text-align:center;
+    line-height:normal;
+  }
+  .para_black {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+}
+.para_light_grey {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #999999;
+    text-align: left;
+}
+.text_field {
+    color: #000000;
+    text-align: left;
+}
+.cursor{
+    cursor: pointer;
+}
+.nav_link {
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #333333;
+    text-align: right;
+}
+.annotation {
+    font-size: 12px;
+    padding-left: 2px;
+    margin-bottom: 5px;
+}
+div.annnoteimage {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 0px;
+    cursor: help;
+    /* background-image: url(images/note.gif); */
+    /* background-repeat: no-repeat; */
+    width: 13px;
+    height: 12px;
+    padding-top: 1px;
+    text-align: center;
+    background-color: #138CDD;
+    -moz-box-shadow: 1px 1px 3px #aaa;
+    -webkit-box-shadow: 1px 1px 3px #aaa;
+    box-shadow: 1px 1px 3px #aaa;
+}
+.paragraph {
+    text-align: left;
+}
+.label {
+    font-size: 14px;
+    text-align: left;
+}
