@@ -7,17 +7,19 @@ import App from "./App";
 import Header from "./containers/Header";
 import Footer from "./containers/Footer";
 import Login from "./containers/Login";
+import Dashboard from './containers/dashboard';
 
 ReactDOM.render(
-    
-  <Router>
   <div>
-     <Route path="/" component={Header} />
-     <Route path="/" component={App} />
-     <Route path="/" component={Footer}  />
-     <Route path="/" component={Login}  />
-  </div>
-</Router>,
+    <Header/>
+       <Router>
+          <div>
+            <Route path="/" component={Login} />
+            <Route path="/dashboard" component={Dashboard}  />
+          </div>
+      </Router>
+    <Footer/>
+  </div>,
   
   document.getElementById("root")
 );
